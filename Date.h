@@ -1,13 +1,12 @@
-//#ifndef DATE
-//#define DATE
+#pragma once
 
-
-typedef struct _Date {
+typedef struct _Date
+{
     int day;
     int month;
     int year;
 
 } Date;
 
-Date* create_date(int day,int month,int year);
-void print_Date(Date* D);
+Date *create_date(int day, int month, int year);
+void print_Date(Date *D);
